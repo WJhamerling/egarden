@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body {
+	background-color: white;
+  font-family:"lemon";
+  letter-spacing: 1.5px;
+	font-size:16px;
+	margin:0;
+	padding:0;
+}
+
+/*HEADER*/
+header {
+    background-color: White;
+    width: 100vw;
+    height: 150px;
+}
+
+header .header-logo {
+    display: block;
+    width: 309px;
+    height: 150px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+header .header-logo a img {
+    width: 80%;
+    height: 80%;
+    padding: 12px 0px 12px 0px;
+}
+
+header .header-logo a img:hover {
+    opacity: 0.8;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 750px;
+    height: 150px;
+    overflow: hidden;
+}
+
+header nav ul li {
+    display: inline-flex;
+    float: left;
+    padding: 0px 0px;
+    margin: 82px 16px 0px 0px;
+}
+
+header nav ul li:hover {
+    opacity: 0.8;
+    border-bottom : 2px solid #B36E68;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:#60B0F4;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.accountdiv_flex {
+  position: absolute;
+  display: block;
+  border: 3px solid #B36E68;
+  border-radius: 15px;
+  height: 105px;
+  width: 250px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top: 5px;
+  right: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 15px;
+  
+ 
+}
+.accountdiv_flex1 {
+  position: relative;
+  display: inline-block;
+  background-image: url(images/account_user.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 245px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 100%;
+  top: 0;
+  right: 0;
+  border-left: 5px solid transparent;
+  text-align: right;
+  vertical-align: bottom;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: #60B0F4;
+  font-size: 19px;
+  text-transform: uppercase; 
+  margin-bottom: 5px;
+
+}
+
+.accountdiv_flex2 {
+  border-top: 3px solid #B36E68;
+  position: relative;
+  display: inline-block;
+  background-image: url(images/account_cart.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 245px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 100%;
+  top: 0;
+  right: 0;
+  text-align: right;
+  vertical-align: bottom;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: #60B0F4;
+  font-size: 19px;
+  text-transform: uppercase;
+     
+}
+
+
+
+/* Slideshow */
+.slideshow {
+  width: 100%;
+  height: calc(1500/vh);
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.text {
+  color: white;
+  font-size: 70pt;
+  padding: 8px 12px;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);  width: 100%;
+  text-align: center;
+  text-shadow: 5px 5px black;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+/*FOOTER*/
+footer {
+    position: fixed;
+    left: 5%;
+    bottom: 0;
+    height: 40px;
+    width: 90vw;
+    background-color: #FFFFFF;
+    color: #60B0F4;
+}
+
+footer .gegevens {
+    display: inline-flex;
+    width: 90%;
+    height: 40px;
+    text-align: left;
+    color: #60B0F4;
+    line-height: 40px;
+}
+
+footer .gegevens ul li {
+    text-align: left;
+    display: inline;
+    font-weight: 600;
+}
+
+footer .logo1 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 0px 6px 0 32px;
+    background-image: url(images/Facebook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+footer .logo1:hover {
+    opacity: 0.8;
+}
+
+footer .logo2 {
+    width: 32px;
+    height:32px;
+    float: right;
+    margin: 4px 0px 0 0px;
+    background-image: url(images/Instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+footer .logo2:hover {
+    opacity: 0.8;
+}

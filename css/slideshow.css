@@ -1,0 +1,50 @@
+/* Slideshow */
+.slideshow {
+  width: 100%;
+  height: calc(1500/vh);
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.text {
+  color: white;
+  font-size: 70pt;
+  padding: 8px 12px;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);  width: 100%;
+  text-align: center;
+  text-shadow: 5px 5px black;
+}
+
+
+.paginanummer {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 475px;
+  left: 45%;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}

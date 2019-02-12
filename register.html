@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>eGarden</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/register_style.css" />
+</head>
+
+<body>
+    <form action="php/form/formHandler.php" method="POST">
+
+        <h1>Sign Up</h1>
+
+        <legend><span class="number"><b>i</b></span>Type your information in the fields below</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" autofocus required>
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password" required>
+
+        <!-- <label for="job">Gorilla Role</label>
+        <select id="job" name="user_job">
+            <optgroup label="Gorilla Roles">
+                <option value="alpha">Alpha Gorilla</option>
+                <option value="fighter">Fighter Gorilla</option>               
+                <option value="banana">Banana Gorilla</option>
+                <option value="slinger">Slinger Gorilla</option>
+                <option value="funny">Funny Gorilla</option>
+            </optgroup>       
+        </select>
+
+        <label>Interests</label>
+        <input type="checkbox" id="development" value="bananas" name="user_interest"><label class="light" for="development">Banana's</label><br>
+        <br> 
+        <input type="color" name="favcolor">
+        <input type="date">
+        <input type="number"> -->
+        <br>
+        <br>
+        <button type="submit">Sign Up</button>
+
+    </form>
+</body>
+</html>

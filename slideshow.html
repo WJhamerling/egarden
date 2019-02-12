@@ -1,0 +1,42 @@
+<div class="slideshow">
+
+    <div class="mySlides fade">
+      <div class="paginanummer">1 / 4</div>
+      <img src="images/index_slide1.jpg" style="width:100%; height:300px">
+      <div class="text">eGARDEN test 1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="paginanummer">2 / 4</div>
+      <img src="images/index_slide2.jpg" style="width:100%; height:300px">
+	<div class="text">eGARDEN test 2</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="paginanummer">3 / 4</div>
+      <img src="images/index_slide3.jpg" style="width:100%; height:300px">
+      <div class="text">eGARDEN test 3</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="paginanummer">4 / 4</div>
+      <img src="images/index_slide4.jpg" style="width:100%; height:300px">
+      <div class="text">eGARDEN test 4</div>
+    </div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3200);
+}
+</script>
