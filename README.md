@@ -1,4 +1,4 @@
-# eGarden
+# eGARDEN
 
 The product of the secondp week learning e-commerce; creating login systems etc.
 
